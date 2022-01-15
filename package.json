@@ -1,0 +1,17 @@
+{
+  "name": "typescript-node",
+  "version": "0.0.1",
+  "description": "Minimal example of compiled typescript",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc --project",
+    "build-and-run": "tsc --project . && node index.js",
+    "tsc": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "André Kovac",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.5.4"
+  }
+}
