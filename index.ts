@@ -2,6 +2,7 @@ type Person = {
   name: string;
   age?: number;
 };
+
 const person1 = {
   name: "Andre",
   age: 16,
