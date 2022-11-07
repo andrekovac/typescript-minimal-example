@@ -1,5 +1,10 @@
 # Minimal TypeScript example
 
+## Run
+
+1. Install the typescript dependency by running `yarn` in this folder
+2. Run `yarn build` to compile the typescript file to javascript
+3. Run `node index.js` to run the compiled application
 ## What?
 
 This codebase demonstrates how the TypeScript compiler `tsc` compiles `index.ts` (using modern JavaScript syntax)
