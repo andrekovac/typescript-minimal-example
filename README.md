@@ -1,10 +1,15 @@
 # Minimal TypeScript example
 
+TypeScript is a super set of JavaScript. It adds static typing to JavaScript. TypeScript is compiled to JavaScript.
+
+![TypeScript in VSCode and in the browser](./TypeScript.png)
+
 ## Run
 
 1. Install the typescript dependency by running `yarn` in this folder
 2. Run `yarn build` to compile the typescript file to javascript
 3. Run `node index.js` to run the compiled application
+
 ## What?
 
 This codebase demonstrates how the TypeScript compiler `tsc` compiles `index.ts` (using modern JavaScript syntax)

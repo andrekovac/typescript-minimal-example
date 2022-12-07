@@ -4,6 +4,7 @@
     "target": "ES3",
     "module": "CommonJS",
     "strict": true,
+    "noImplicitThis": false,
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true

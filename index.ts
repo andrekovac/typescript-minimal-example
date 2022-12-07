@@ -3,7 +3,7 @@ type Person = {
   age?: number;
 };
 
-const person1 = {
+const person1: Person = {
   name: "Andre",
   age: 16,
 };

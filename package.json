@@ -12,6 +12,6 @@
   "author": "André Kovac",
   "license": "MIT",
   "devDependencies": {
-    "typescript": "^4.5.4"
+    "typescript": "^4.9.3"
   }
 }
