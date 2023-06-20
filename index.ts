@@ -8,7 +8,7 @@ const person1: Person = {
   age: 16,
 };
 
-const getPersonDetails = (person: Person) => {
+const getPersonDetails = (person: Person): string => {
   return person.age !== undefined
     ? `${person.name}: ${person.age} years`
     : person.name;

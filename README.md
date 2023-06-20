@@ -63,3 +63,20 @@ Running `yarn build-and-run` combines two commands which do the following:
 1. In `tsconfig.json` change `"target": "ES3",` to `"target": "ES6",`
 2. Run the `build-and-run` script (i.e. `yarn build-and-run`)
 3. Which differences do you observe in `index.js`?
+
+### How does TypeScript compile an `enum` ?
+
+1. In `index.ts` add the following enum:
+
+  ```ts
+  enum Lang {
+    "en",
+    "de",
+    "zh",
+  }
+
+  const lang = Lang.en;
+  ```
+
+2. Run the `build` script (i.e. `yarn build`);
+3. What appeared in `index.js`?
