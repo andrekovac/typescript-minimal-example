@@ -1,6 +1,6 @@
 type Person = {
-  name: string;
-  age?: number;
+  name: string; // required
+  age?: number; // optional
 };
 
 const person1: Person = {
