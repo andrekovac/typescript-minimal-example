@@ -6,8 +6,8 @@ TypeScript is a super set of JavaScript. It adds static typing to JavaScript. Ty
 
 ## Run
 
-1. Install the typescript dependency by running `yarn` in this folder
-2. Run `yarn build` to compile the typescript file to javascript
+1. Install the typescript dependency by running `npm install` in this folder
+2. Run `npm run build` to compile the typescript file to javascript
 3. Run `node index.js` to run the compiled application
 
 ## What?
