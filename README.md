@@ -68,15 +68,15 @@ Running `yarn build-and-run` combines two commands which do the following:
 
 1. In `index.ts` add the following enum:
 
-  ```ts
-  enum Lang {
-    "en",
-    "de",
-    "zh",
-  }
+    ```ts
+    enum Lang {
+      "en",
+      "de",
+      "zh",
+    }
 
-  const lang = Lang.en;
-  ```
+    const lang = Lang.en;
+    ```
 
 2. Run the `build` script (i.e. `yarn build`);
 3. What appeared in `index.js`?
