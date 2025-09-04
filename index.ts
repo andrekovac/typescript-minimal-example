@@ -5,7 +5,7 @@ type Person = {
 
 const person1: Person = {
   name: "André",
-  age: 36,
+  age: 38,
 };
 
 const getPersonDetails = (person: Person): string => {
