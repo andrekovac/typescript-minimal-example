@@ -5,13 +5,13 @@ type Person = {
 
 const person1: Person = {
   name: "André",
-  age: 38,
+  age: 39,
 };
 
 const getPersonDetails = (person: Person): string => {
-  return person.age !== undefined
-    ? `${person.name}: ${person.age} years`
-    : person.name;
+  return person.age === undefined
+    ? person.name
+    : `${person.name}: ${person.age} years`;
 };
 
 console.log(getPersonDetails(person1));
